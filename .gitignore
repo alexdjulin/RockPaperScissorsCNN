@@ -21,6 +21,7 @@ Thumbs.db
 # Ignore dataset and models (too large for git)
 dataset/
 models/
+captured/
 
 # Ignore temporary files
 settings.txt
