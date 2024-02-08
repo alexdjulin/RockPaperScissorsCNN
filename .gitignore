@@ -1,0 +1,24 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output
+build/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore logs and other generated files
+logs/
+*.log
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore dataset and models (too large for git)
+dataset/
+models/
+testing/
