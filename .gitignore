@@ -21,7 +21,6 @@ Thumbs.db
 # Ignore dataset and models (too large for git)
 dataset/
 models/
-test/
 
 # Ignore temporary files
 roi_dim.txt
