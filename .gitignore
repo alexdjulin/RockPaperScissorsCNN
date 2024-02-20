@@ -25,3 +25,4 @@ captured/
 
 # Ignore temporary files
 settings.txt
+*.psd
