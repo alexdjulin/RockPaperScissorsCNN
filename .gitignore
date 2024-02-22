@@ -10,6 +10,9 @@ build/
 *.sublime-project
 *.sublime-workspace
 
+# Ignore virtual environments
+.venv/
+
 # Ignore logs and other generated files
 logs/
 *.log
