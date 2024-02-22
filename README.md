@@ -13,6 +13,8 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
+You will need to install Jupyter Notebook or use an extension to review and execute code from the notebooks listed below.  
+
 ## Dataset
 I used the following 3 datasets to train the CNN from scratch:
 
@@ -29,7 +31,7 @@ The latest version of my model is available here:
 Download it inside a _models_ folder and specify the model path inside the notebooks you want to use. If you leave the path to None, it will use the latest available version.
 
 ## Notebooks description
-I used the following notebooks to train and test my CNN. You will need to install Jupyter Notebook or use an extension to review them and execute the code.
+I used the following notebooks to train and test my CNN.  
 
 - [build_dataset.ipynb](https://github.com/alexdjulin/RockPaperScissorsCNN/blob/main/build_dataset.ipynb) - Creates Train, Test and Validation folders for you and copies all the pictures of your different source datasets inside, following a given split ratio (80 / 10 / 10 by default). Images will be renamed to avoid duplicates.
 - [train_cnn.ipynb](https://github.com/alexdjulin/RockPaperScissorsCNN/blob/main/train_cnn.ipynb) - Covers all the steps needed to load and prepare your dataset, create the CNN, train it, analyse the results and test the model.
