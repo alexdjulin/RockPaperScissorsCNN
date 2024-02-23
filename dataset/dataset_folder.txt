@@ -1,0 +1,46 @@
+Copy here your dataset as follows. Image names don't matter.
+
+[dataset 1]
+    [rock]
+        image1, image2, ..., imageN
+    [paper]
+        image1, image2, ..., imageN
+    [scissors]
+        image1, image2, ..., imageN
+
+[dataset 2]
+    [rock]
+        image1, image2, ..., imageN
+    [paper]
+        image1, image2, ..., imageN
+    [scissors]
+        image1, image2, ..., imageN
+
+----------------------------------------------------------------------------------------------------
+
+Then execute the build_dataset notebook after setting the split_ratio (80/10/10 by default). 
+It will copy all the images using in following folder structure:
+
+[train]
+    [rock]
+        image1, image2, ..., imageN
+    [paper]
+        image1, image2, ..., imageN
+    [scissors]
+        image1, image2, ..., imageN
+
+[test]
+    [rock]
+        image1, image2, ..., imageN
+    [paper]
+        image1, image2, ..., imageN
+    [scissors]
+        image1, image2, ..., imageN
+
+[validation]
+    [rock]
+        image1, image2, ..., imageN
+    [paper]
+        image1, image2, ..., imageN
+    [scissors]
+        image1, image2, ..., imageN

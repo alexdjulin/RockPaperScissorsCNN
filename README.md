@@ -18,8 +18,8 @@ You will need to install Jupyter Notebook or use an extension to review and exec
 ## Dataset
 I used the following 3 datasets to train the CNN from scratch:
 
-[DRGFREEMAN](https://www.kaggle.com/datasets/drgfreeman/rockpaperscissors)  
-[SANI KAMAL](https://www.kaggle.com/datasets/sanikamal/rock-paper-scissors-dataset)  - Also available in tensorflow_datasets  
+[DRGFREEMAN](https://www.kaggle.com/datasets/drgfreeman/rockpaperscissors)  - Edited to remove the green screen, see _remove_greenscreen_ notebook  
+[SANI KAMAL](https://www.kaggle.com/datasets/sanikamal/rock-paper-scissors-dataset)  - Also available in tensorflow_datasets, see _download_dataset_ notebook  
 [ALEXDJULIN](https://www.kaggle.com/datasets/alexandredj/rock-paper-scissors-dataset)  -  I created this one myself.  
 
 Download them inside a _dataset_ folder and use the _build_dataset_ notebook to organise all pictures in test/train/validation subfolders.

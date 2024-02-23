@@ -22,9 +22,14 @@ logs/
 Thumbs.db
 
 # Ignore dataset and models (too large for git)
-dataset/
-models/
-captured/
+dataset/source/
+dataset/test/
+dataset/train/
+dataset/validation/
+
+# Ignore models
+models/versions/
+*.h5
 
 # Ignore temporary files
 settings.txt
