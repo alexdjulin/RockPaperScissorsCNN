@@ -1,46 +1,47 @@
-Copy here your dataset as follows. Image names don't matter.
+Copy here your datasets as follows. Image names don't matter, just folder structure.
 
-[dataset 1]
+[d1]
     [rock]
-        image1, image2, ..., imageN
+        name1.ext, name2.ext, ...
     [paper]
-        image1, image2, ..., imageN
+        name1.ext, name2.ext, ...
     [scissors]
-        image1, image2, ..., imageN
+        name1.ext, name2.ext, ...
 
-[dataset 2]
+[d2]
     [rock]
-        image1, image2, ..., imageN
+        name1.ext, name2.ext, ...
     [paper]
-        image1, image2, ..., imageN
+        name1.ext, name2.ext, ...
     [scissors]
-        image1, image2, ..., imageN
+        name1.ext, name2.ext, ...
 
 ----------------------------------------------------------------------------------------------------
 
 Then execute the build_dataset notebook after setting the split_ratio (80/10/10 by default). 
-It will copy all the images using in following folder structure:
+It will randomly copy and rename all the images as follows according to split_ratio: 
+{shape}_{dataset}_{set}_{id}.{extension}
 
 [train]
     [rock]
-        image1, image2, ..., imageN
+        rock_d1_train_1.ext, rock_d2_train_2.ext, ...
     [paper]
-        image1, image2, ..., imageN
+        paper_d2_train_1.ext, paper_d1_train_2.ext, ...
     [scissors]
-        image1, image2, ..., imageN
+        scissors_d1_train_1.ext, scissors_d2_train_2.ext, ...
 
 [test]
     [rock]
-        image1, image2, ..., imageN
+        rock_d1_test_1.ext, rock_d1_test_2.ext, ...
     [paper]
-        image1, image2, ..., imageN
+        paper_d2_test_1.ext, paper_d2_test_2.ext, ...
     [scissors]
-        image1, image2, ..., imageN
+        scissors_d1_test_1.ext, scissors_d2_test_2.ext, ...
 
 [validation]
     [rock]
-        image1, image2, ..., imageN
+        rock_d2_validation_1.ext, rock_d1_validation_2.ext, ...
     [paper]
-        image1, image2, ..., imageN
+        paper_d2_validation_1.ext, paper_d2_validation_2.ext, ...
     [scissors]
-        image1, image2, ..., imageN
+        scissors_d1_validation_1.ext, scissors_d1_validation_2.ext, ...
