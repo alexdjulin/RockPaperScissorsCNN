@@ -33,7 +33,7 @@ Download it inside a _models_ folder and specify the model path inside the noteb
 ## Notebooks description
 I used the following notebooks to train and test my CNN.  
 
-- [build_dataset.ipynb](https://github.com/alexdjulin/RockPaperScissorsCNN/blob/main/build_dataset.ipynb) - Creates Train, Test and Validation folders for you and copies all the pictures of your different source datasets inside, following a given split ratio (80 / 10 / 10 by default). Images will be renamed to avoid duplicates.
+- [build_dataset.ipynb](https://github.com/alexdjulin/RockPaperScissorsCNN/blob/main/build_dataset.ipynb) - Creates Train, Test and Validation folders for you and copies all the pictures of your different source datasets inside, following a given split ratio (70% / 20% / 10% by default). Images will be renamed to avoid duplicates.
 - [train_cnn.ipynb](https://github.com/alexdjulin/RockPaperScissorsCNN/blob/main/train_cnn.ipynb) - Covers all the steps needed to load and prepare your dataset, create the CNN, train it, analyse the results and test the model.
 - [rps_main.ipynb](https://github.com/alexdjulin/RockPaperScissorsCNN/blob/main/rps_main.ipynb) - This is my main application to display webcam frames, create a region of interest and use the model to predict hand gestures inside it. A Capture mode lets you capture new images if you want to create your own dataset like I did.
 - [remove_greenscreen.ipynb](https://github.com/alexdjulin/RockPaperScissorsCNN/blob/main/remove_greenscreen.ipynb) - A notebook I wrote to remove the green background from drgfreeman's dataset images and reshape them to fit the other two.
