@@ -1,0 +1,39 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output
+build/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore virtual environments
+.venv/
+
+# Ignore logs and other generated files
+logs/
+*.log
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore dataset
+dataset/alexdjulin/
+dataset/drgfreeman/
+dataset/sanikamal/
+dataset/test/
+dataset/train/
+dataset/validation/
+
+# Ignore models
+models/versions/
+*.h5
+
+# Ignore temporary folders and files
+captured/
+settings.txt
+*.psd
