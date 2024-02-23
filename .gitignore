@@ -21,7 +21,7 @@ logs/
 .DS_Store
 Thumbs.db
 
-# Ignore dataset and models (too large for git)
+# Ignore dataset
 dataset/source/
 dataset/test/
 dataset/train/
@@ -31,6 +31,7 @@ dataset/validation/
 models/versions/
 *.h5
 
-# Ignore temporary files
+# Ignore temporary folders and files
+captured/
 settings.txt
 *.psd
