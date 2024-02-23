@@ -22,7 +22,9 @@ logs/
 Thumbs.db
 
 # Ignore dataset
-dataset/source/
+dataset/alexdjulin/
+dataset/drgfreeman/
+dataset/sanikamal/
 dataset/test/
 dataset/train/
 dataset/validation/
