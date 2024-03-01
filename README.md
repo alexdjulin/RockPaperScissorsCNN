@@ -22,7 +22,9 @@ I used the following 3 datasets to train the CNN from scratch:
 [SANI KAMAL](https://www.kaggle.com/datasets/sanikamal/rock-paper-scissors-dataset)  - Also available in tensorflow_datasets, see _download_dataset_ notebook  
 [ALEXDJULIN](https://www.kaggle.com/datasets/alexandredj/rock-paper-scissors-dataset)  -  I created this one myself.  
 
-Download them inside a _dataset_ folder and use the _build_dataset_ notebook to organise all pictures in test/train/validation subfolders.
+Download them inside a _dataset_ folder and use the _build_dataset_ notebook to organise all pictures in test/train/validation subfolders.  
+
+<img src="medias/rps_predict.gif" width=500 height=338>
 
 ## Model
 The latest version of my model is available here:  
