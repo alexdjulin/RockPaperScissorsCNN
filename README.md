@@ -4,7 +4,7 @@ _My attempt at the Rock-Paper-Scissors classification problem._
 <img src="medias/rps_predict.gif" width=500 height=338>
 
 ## Video Demo
-<a href="https://youtu.be/mjglZWtWQCg"><img src="medias/yt_thumb.png" width=600 height=330></a>
+<a href="https://youtu.be/mjglZWtWQCg" target="_blank"><img src="medias/yt_thumb.png" width=600 height=330></a>
 
 ## Installation
 ```bash
