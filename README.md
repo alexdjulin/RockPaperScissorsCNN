@@ -1,8 +1,10 @@
 # RockPaperScissorsCNN
 _My attempt at the Rock-Paper-Scissors classification problem._
 
-![rps_title.png](medias/rps_title.png)
+<img src="medias/rps_predict.gif" width=500 height=338>
 
+## Video Demo
+<a href="https://youtu.be/mjglZWtWQCg"><img src="medias/yt_thumb.png" width=600 height=330></a>
 
 ## Installation
 ```bash
@@ -24,7 +26,7 @@ I used the following 3 datasets to train the CNN from scratch:
 
 Download them inside a _dataset_ folder and use the _build_dataset_ notebook to organise all pictures in test/train/validation subfolders.  
 
-<img src="medias/rps_predict.gif" width=500 height=338>
+![rps_title.png](medias/rps_title.png)  
 
 ## Model
 The latest version of my model is available here:  
