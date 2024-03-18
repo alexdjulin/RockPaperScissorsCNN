@@ -37,3 +37,6 @@ models/versions/
 captured/
 settings.txt
 *.psd
+
+# Ignore demo folder
+demo/
