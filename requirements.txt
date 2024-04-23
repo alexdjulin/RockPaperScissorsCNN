@@ -25,7 +25,7 @@ google-pasta==0.2.0
 googleapis-common-protos==1.62.0
 grpcio==1.62.0
 h5py==3.10.0
-idna==3.6
+idna==3.7
 importlib-resources==6.1.1
 ipykernel==6.29.2
 ipython==8.22.1
